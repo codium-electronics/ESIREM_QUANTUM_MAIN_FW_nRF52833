@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\ESIREM_QUANTUM_FW_BOARDS_ZEPHYR"
+		}
+	],
+	"settings": {
+		"nrf-connect.applications": [
+			"${workspaceFolder}"
+		],
+		"nrf-connect.boardRoots": [
+			"${workspaceFolder}/../ESIREM_QUANTUM_FW_BOARDS_ZEPHYR"
+		]
+	}
+}
