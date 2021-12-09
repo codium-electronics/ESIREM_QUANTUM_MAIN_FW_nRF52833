@@ -78,7 +78,6 @@ int esirem_quantum_main_settings_init()
     LOG_DBG(STR_LOG_SUCCESS);
 
     settings_register(&esirem_quantum_main_core_settings_hdlrs);
-    settings_load();
 
     return 0;
 }
